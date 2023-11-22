@@ -10,20 +10,33 @@
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
 
   <!--  Styles  ----> 
+  <link rel="preload" href="css/styles.css" as="styles">
   <link rel="stylesheet" href="css/styles.css">
 
-  <link rel="stylesheet" href="">
+  <!-- normalize -->
+  <link rel="preload" href="css/normalize.css" as="styles">
+  <link rel="stylesheet" href="css/normalize.css">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | QR code component</title>
-
 </head>
-<body>
+<body class="background">
+  <main class="container border-radius">
+    <div class="card grid">
+      <div class="card--img">
+        <img class="border-radius" src="images/image-qr-code.png" alt="QR">
+      </div>
+      <div class="card--info">
+        <h1>Improve your front-end skills by building projects</h1>
+        <p class="center-text">
+          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+        </p>
+      </div>
+    
 
-  Improve your front-end skills by building projects
+    </div>
+  </main>
 
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Dllawn</a>.
